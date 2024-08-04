@@ -1,6 +1,6 @@
 ---
 layout: layout/blog.njk
-author: "Jakeplays12, Cal"
+author: "Cal"
 rank: "Executives"
 
 title: "Hyperia’s Still down..."
