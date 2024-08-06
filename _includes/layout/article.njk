@@ -42,7 +42,7 @@ templateClass: tmpl-home
                 <hr>
                 <p class="PageInfo_Author">{{author}}</p>
                 <p class="PageInfo_Rank PageInfo_Rank_{{rank}}">{{rank}}</p>
-                <p class="PageInfo_Date"><i class="fa-solid fa-clock"></i> {{ page.date }}</p>
+                <p class="PageInfo_Date"><i class="fa-solid fa-clock"></i> {{ page.date | formatDate }}</p>
             </div>
 
 
