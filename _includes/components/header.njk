@@ -1,0 +1,89 @@
+<nav>
+    <div class="NavContainer">
+
+        <div class="LogoContainer">
+            <img style="width: 60px;" src="/assets/img/tpfukIcon.png">
+            <span style=" margin-left: 10px; ">Theme Park Fans UK</span>
+        </div>
+
+        <div class="Spacer"></div>
+
+        <div class="NavLinks">
+            <a id="Nav_Home" class="NavLink" style="--NavHighlight: hsla(4, 100%, 24%, 80%);" href="/">Home</a>
+            <a id="Nav_Articles" class="NavLink" style="--NavHighlight: hsla(46, 100%, 23%, 80%);"
+                href="/articles/">Articles</a>
+            <a id="Nav_SocialMedia" class="NavLink" style="--NavHighlight: hsla(124, 100%, 23%, 80%);"
+                href="/socials">Social Media</a>
+            <a id="Nav_Discord" class="NavSButton" href="https://discord.gg/ZtdVUWEcP4">Discord</a>
+        </div>
+
+
+    </div>
+</nav>
+
+<style>
+    .NavSButton {
+        padding: 3px 6px;
+        background-color: #5865F2;
+        height: fit-content;
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-weight: bold;
+        margin-left: 10px;
+        transform: translate(0px, 0px);
+        transition: transform 0.3s;
+        cursor: pointer;
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    .Spacer {
+        flex: 1;
+    }
+
+    .NavContainer {
+        color: var(--text);
+        display: flex;
+        height: 64px;
+        width: 100%;
+        padding-inline: 50px;
+        box-sizing: border-box;
+    }
+
+    .NavContainer .LogoContainer {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .NavContainer .NavLinks {
+        display: flex;
+        align-items: center;
+    }
+
+    .NavContainer .NavLink {
+        font-size: 20px;
+        font-weight: bold;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-inline: 5px;
+        text-shadow: -2px 2px 1px var(--NavHighlight);
+        ;
+        color: var(--text);
+        text-decoration: none;
+        padding: 0 10px;
+        transform: translate(0px, 0px);
+        transition: transform 0.3s;
+    }
+
+    .NavContainer a:hover {
+        transform: translate(0px, 3px);
+    }
+
+    nav {
+        background-color: var(--foreground);
+        width: 100%;
+    }
+</style>
