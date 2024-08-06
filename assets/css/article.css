@@ -58,7 +58,8 @@ background-color:var(--secondary);
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-    margin-inline:auto
+    margin-inline:auto;
+    flex-wrap: wrap;
 }
 
 .ArticleTags a{
