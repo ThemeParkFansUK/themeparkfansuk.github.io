@@ -1,5 +1,5 @@
 {
-  "name": "jakeplays12_website_2.0",
+  "name": "themeparkfansuk_website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jakeplays12/Jakeplays12.github.io.git"
+    "url": "git+https://github.com/ThemeParkFansUK/themeparkfansuk.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jakeplays12/Jakeplays12.github.io/issues"
+    "url": "https://github.com/ThemeParkFansUK/themeparkfansuk.github.io/issues"
   },
-  "homepage": "https://github.com/Jakeplays12/Jakeplays12.github.io#readme",
+  "homepage": "https://github.com/ThemeParkFansUK/themeparkfansuk.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   },
