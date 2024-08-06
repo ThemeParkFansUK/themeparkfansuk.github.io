@@ -1,0 +1,24 @@
+#PostTag_park-review{
+    --TagBackground: var(--primary);
+    --TagText: var(--primary-content);
+}
+
+#PostTag_first-look{
+    --TagBackground: #0202c0;
+    --TagText: #b2b2fe;
+}
+
+#PostTag_paultons-park{
+    --TagBackground: #57007a;
+    --TagText: #d97aff;
+}
+
+#PostTag_thorpe-park{
+    --TagBackground: #2A276E;
+    --TagText: #E6688D;
+}
+
+#PostTag_hyperia{
+    --TagBackground: #DE9C40;
+    --TagText: #F1F1F5;
+}

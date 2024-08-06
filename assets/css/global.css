@@ -1,0 +1,55 @@
+:root{
+--primary: #007b7b;
+--primary-content: #7bffff;
+--primary-dark: #004848;
+--primary-light: #00aeae;
+
+--secondary: #7b5200;
+--secondary-content: #ffd37b;
+--secondary-dark: #483000;
+--secondary-light: #ae7400;
+
+--background: #161d1d;
+--foreground: #212b2b;
+--border: #384848;
+
+--text: #fbfcfc;
+--text-light: #d4dede;
+--text-lighter: #9bb1b1;
+
+--success: #007b00;
+--warning: #7b7b00;
+--error: #7b0000;
+--success-content: #7bff7b;
+--warning-content: #ffff7b;
+--error-content: #ff7b7b;
+}
+
+html{
+    background-color: var(--background);
+    color: var(--text);
+}
+html,body{margin: 0;padding: 0}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.Content {
+    max-width: 1152px;
+    margin-inline: auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+  }
