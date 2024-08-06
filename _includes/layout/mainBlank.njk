@@ -25,39 +25,7 @@ templateClass: tmpl-home
     {% include "components/header.njk" %}
     <!-- Header -->
 
-    <div class="Content">
-
-        <div class="article_pageimg">
-            <img src="{{pageimg}}">
-            <span>{{tag}}</span>
-        </div>
-
-
-
-
-        <div class="articleContent">
-
-            <div class="PageInfo">
-                <h1 class="PageInfo_Title">{{title}}</h1>
-                <hr>
-                <p class="PageInfo_Author">{{author}}</p>
-                <p class="PageInfo_Rank PageInfo_Rank_{{rank}}">{{rank}}</p>
-                <p class="PageInfo_Date"><i class="fa-solid fa-clock"></i> {{ page.date }}</p>
-            </div>
-
-
-            {{ content | safe }}
-        </div>
-        
-        <div class="ArticleTags">
-
-          {% for tag in tags %}
-          <a id="PostTag_{{tag | slugify}}" href="/articles/tags/{{tag | slugify}}">{{tag}}</a>
-          {% endfor %}
-
-        </div>
-
-    </div>
+    {{ content | safe }}
 
     <!-- Footer -->
     {% include "components/footer.njk" %}
