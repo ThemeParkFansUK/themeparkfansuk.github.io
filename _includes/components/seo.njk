@@ -1,5 +1,5 @@
-<meta name="title" content="{{title}} &bull; ThemeParkFansUK">
-<title>{{title}} &bull; Theme Park Fans UK</title>
+<meta name="title" content="{% if title %} {{ title }} - Theme Park Fans UK {% else %} Theme Park Fans UK {% endif %}">
+<title>{% if title %} {{ title }} - Theme Park Fans UK {% else %} Theme Park Fans UK {% endif %}</title>
 <meta name="keywords" content="ThemeParkFansUK">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
@@ -7,12 +7,12 @@
 <link rel="icon" href="/assets/img/tpfukIcon.png">
 
 <meta property="og:type" content="website" />
-<meta property="og:title" content="{{title}}" />
+<meta property="og:title" content="{% if title %} {{ title }} - Theme Park Fans UK {% else %} Theme Park Fans UK {% endif %}" />
 <meta property="og:description" content="{{ summary | default("Are you a fan of roller-coasters or like to find out future developments come and JOIN US and LOOK DOWN for information!") }}" />
 <meta property="og:image" content="{{img}}" />
 
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="{{title}}" />
+<meta property="twitter:title" content="{% if title %} {{ title }} - Theme Park Fans UK {% else %} Theme Park Fans UK {% endif %}" />
 <meta property="twitter:description" content="" />
 <meta name="theme-color" content="#007b7b">
 
