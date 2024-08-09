@@ -39,6 +39,7 @@ html,body{margin: 0;padding: 0}
 .Content {
     max-width: 1152px;
     margin-inline: auto;
+    margin-bottom: 128px;
 }
 
 ::-webkit-scrollbar {
